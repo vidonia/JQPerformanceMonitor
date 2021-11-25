@@ -7,6 +7,7 @@
 //
 
 #import "JQViewController.h"
+#import "JQCatonViewController.h"
 
 @interface JQViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)tableViewCatonTest:(id)sender {
+    JQCatonViewController *vc = [JQCatonViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

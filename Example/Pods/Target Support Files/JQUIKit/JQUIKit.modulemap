@@ -1,0 +1,6 @@
+framework module JQUIKit {
+  umbrella header "JQUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

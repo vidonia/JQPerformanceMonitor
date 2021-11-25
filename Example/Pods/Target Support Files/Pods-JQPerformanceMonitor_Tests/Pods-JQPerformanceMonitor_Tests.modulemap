@@ -1,0 +1,6 @@
+framework module Pods_JQPerformanceMonitor_Tests {
+  umbrella header "Pods-JQPerformanceMonitor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

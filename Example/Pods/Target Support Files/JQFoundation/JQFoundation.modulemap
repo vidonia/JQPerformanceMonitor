@@ -1,0 +1,6 @@
+framework module JQFoundation {
+  umbrella header "JQFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "JQFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of JQFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vidonia/JQFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vidonia": "wangjiaqian93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vidonia/JQFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "NSProxy",
+      "source_files": "JQFoundation/Classes/NSProxy/**/*.{h,m}",
+      "public_header_files": "JQFoundation/Classes/NSProxy/**/*.h"
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "JQFoundation/Classes/NSDictionary/**/*.{h,m}",
+      "public_header_files": "JQFoundation/Classes/NSDictionary/**/*.h"
+    },
+    {
+      "name": "NSArray",
+      "source_files": "JQFoundation/Classes/NSArray/**/*.{h,m}",
+      "public_header_files": "JQFoundation/Classes/NSArray/**/*.h"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module JQPerformanceMonitor {
+  umbrella header "JQPerformanceMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

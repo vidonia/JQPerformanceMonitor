@@ -1,0 +1,48 @@
+{
+  "name": "JQUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of JQUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vidonia/JQUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vidonia": "wangjiaqian93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vidonia/JQUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "JQFoundation": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "JQTableViewModel",
+      "source_files": "JQUIKit/Classes/JQTableViewModel/**/*.{h,m}",
+      "public_header_files": "JQUIKit/Classes/JQTableViewModel/**/*.h",
+      "dependencies": {
+        "JQUIKit/UIView": [
+
+        ]
+      }
+    },
+    {
+      "name": "UIView",
+      "source_files": "JQUIKit/Classes/UIView/**/*.{h,m}",
+      "public_header_files": "JQUIKit/Classes/UIView/**/*.h"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "JQUIKit/Classes/UIImage/**/*.{h,m}",
+      "public_header_files": "JQUIKit/Classes/UIImage/**/*.h"
+    }
+  ]
+}

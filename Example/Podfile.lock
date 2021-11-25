@@ -1,0 +1,54 @@
+PODS:
+  - JQFoundation (0.1.0):
+    - JQFoundation/NSArray (= 0.1.0)
+    - JQFoundation/NSDictionary (= 0.1.0)
+    - JQFoundation/NSProxy (= 0.1.0)
+  - JQFoundation/NSArray (0.1.0)
+  - JQFoundation/NSDictionary (0.1.0)
+  - JQFoundation/NSProxy (0.1.0)
+  - JQPerformanceMonitor (0.1.0):
+    - JQPerformanceMonitor/CPUMonitor (= 0.1.0)
+  - JQPerformanceMonitor/CPUMonitor (0.1.0)
+  - JQUIKit (0.1.0):
+    - JQFoundation
+    - JQUIKit/JQTableViewModel (= 0.1.0)
+    - JQUIKit/UIImage (= 0.1.0)
+    - JQUIKit/UIView (= 0.1.0)
+  - JQUIKit/JQTableViewModel (0.1.0):
+    - JQFoundation
+    - JQUIKit/UIView
+  - JQUIKit/UIImage (0.1.0):
+    - JQFoundation
+  - JQUIKit/UIView (0.1.0):
+    - JQFoundation
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - "JQFoundation (from `/Users/jiaqianwang/Desktop/架构设计/JQFoundation`)"
+  - JQPerformanceMonitor (from `../`)
+  - "JQUIKit (from `/Users/jiaqianwang/Desktop/架构设计/JQUIKit`)"
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  JQFoundation:
+    :path: "/Users/jiaqianwang/Desktop/架构设计/JQFoundation"
+  JQPerformanceMonitor:
+    :path: "../"
+  JQUIKit:
+    :path: "/Users/jiaqianwang/Desktop/架构设计/JQUIKit"
+
+SPEC CHECKSUMS:
+  JQFoundation: 81da440b838bc56d94c6f76a7342da6281e8bce8
+  JQPerformanceMonitor: 40d94de0f68b1a13c218c800edff2127b6108c43
+  JQUIKit: 62bb72b820c39dfdfccb30aa4bf03c0a0d1a63f1
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: 80573b04a8217873c4ff9a305d1b7f1246152f62
+
+COCOAPODS: 1.11.2

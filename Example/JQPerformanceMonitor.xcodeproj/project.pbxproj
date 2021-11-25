@@ -24,6 +24,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CA6A1B3E274F2C0A008E671A /* JQCatonMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A1B3B274F2C09008E671A /* JQCatonMonitor.m */; };
+		CA6A1B3F274F2C0A008E671A /* JQCatonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A1B3D274F2C0A008E671A /* JQCatonViewController.m */; };
+		CA6A1B42274F2C36008E671A /* JQLargeImgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A1B41274F2C36008E671A /* JQLargeImgTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		076821AC1E1D6FA747C93FEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		120AE6BBE97D713917F1A2DF /* JQPerformanceMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JQPerformanceMonitor.podspec; path = ../JQPerformanceMonitor.podspec; sourceTree = "<group>"; };
+		076821AC1E1D6FA747C93FEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		120AE6BBE97D713917F1A2DF /* JQPerformanceMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JQPerformanceMonitor.podspec; path = ../JQPerformanceMonitor.podspec; sourceTree = "<group>"; };
 		396727F4D0F9278C17A770F9 /* Pods_JQPerformanceMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQPerformanceMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48498FDF6DAFC5609D13F1EB /* Pods-JQPerformanceMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPerformanceMonitor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JQPerformanceMonitor_Tests/Pods-JQPerformanceMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JQPerformanceMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQPerformanceMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +65,15 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9892D7F4EFBEE4E12261F019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9892D7F4EFBEE4E12261F019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A502281E56921EFEBE6AED31 /* Pods-JQPerformanceMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPerformanceMonitor_Example.release.xcconfig"; path = "Target Support Files/Pods-JQPerformanceMonitor_Example/Pods-JQPerformanceMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6129421BA6C1871E194F186 /* Pods-JQPerformanceMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPerformanceMonitor_Tests.release.xcconfig"; path = "Target Support Files/Pods-JQPerformanceMonitor_Tests/Pods-JQPerformanceMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA6A1B3A274F2C09008E671A /* JQCatonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQCatonViewController.h; sourceTree = "<group>"; };
+		CA6A1B3B274F2C09008E671A /* JQCatonMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQCatonMonitor.m; sourceTree = "<group>"; };
+		CA6A1B3C274F2C09008E671A /* JQCatonMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQCatonMonitor.h; sourceTree = "<group>"; };
+		CA6A1B3D274F2C0A008E671A /* JQCatonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQCatonViewController.m; sourceTree = "<group>"; };
+		CA6A1B40274F2C36008E671A /* JQLargeImgTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLargeImgTableViewCell.h; sourceTree = "<group>"; };
+		CA6A1B41274F2C36008E671A /* JQLargeImgTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLargeImgTableViewCell.m; sourceTree = "<group>"; };
 		D68E93F698F8DBB4108E944A /* Pods-JQPerformanceMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPerformanceMonitor_Example.debug.xcconfig"; path = "Target Support Files/Pods-JQPerformanceMonitor_Example/Pods-JQPerformanceMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FDC94E2852427B32111C8FE7 /* Pods_JQPerformanceMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQPerformanceMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +141,7 @@
 		6003F593195388D20070C39A /* Example for JQPerformanceMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				CA6A1B39274F2BEE008E671A /* Demo */,
 				6003F59C195388D20070C39A /* JQAppDelegate.h */,
 				6003F59D195388D20070C39A /* JQAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +203,20 @@
 				48498FDF6DAFC5609D13F1EB /* Pods-JQPerformanceMonitor_Tests.debug.xcconfig */,
 				B6129421BA6C1871E194F186 /* Pods-JQPerformanceMonitor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA6A1B39274F2BEE008E671A /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A1B40274F2C36008E671A /* JQLargeImgTableViewCell.h */,
+				CA6A1B41274F2C36008E671A /* JQLargeImgTableViewCell.m */,
+				CA6A1B3C274F2C09008E671A /* JQCatonMonitor.h */,
+				CA6A1B3B274F2C09008E671A /* JQCatonMonitor.m */,
+				CA6A1B3A274F2C09008E671A /* JQCatonViewController.h */,
+				CA6A1B3D274F2C0A008E671A /* JQCatonViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +347,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JQPerformanceMonitor_Example/Pods-JQPerformanceMonitor_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JQFoundation/JQFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/JQPerformanceMonitor/JQPerformanceMonitor.framework",
+				"${BUILT_PRODUCTS_DIR}/JQUIKit/JQUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQPerformanceMonitor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,9 +393,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6A1B42274F2C36008E671A /* JQLargeImgTableViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* JQAppDelegate.m in Sources */,
+				CA6A1B3F274F2C0A008E671A /* JQCatonViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* JQViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				CA6A1B3E274F2C0A008E671A /* JQCatonMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

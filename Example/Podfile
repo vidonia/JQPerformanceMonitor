@@ -4,6 +4,9 @@ platform :ios, '9.0'
 
 target 'JQPerformanceMonitor_Example' do
   pod 'JQPerformanceMonitor', :path => '../'
+  pod 'JQUIKit', :path => '/Users/jiaqianwang/Desktop/架构设计/JQUIKit'
+  pod 'JQFoundation', :path => '/Users/jiaqianwang/Desktop/架构设计/JQFoundation'
+  pod 'SDWebImage'
 
   target 'JQPerformanceMonitor_Tests' do
     inherit! :search_paths
