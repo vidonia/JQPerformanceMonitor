@@ -38,4 +38,7 @@ TODO: Add long description of the pod here.
     #tableViewModel.dependency 'JQPerformanceMonitor/UIView'
   end
   
+  s.dependency 'PLCrashReporter'
+  
+  
 end

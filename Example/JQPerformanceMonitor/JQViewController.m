@@ -8,6 +8,7 @@
 
 #import "JQViewController.h"
 #import "JQCatonViewController.h"
+#import "JQCPUMonitor.h"
 
 @interface JQViewController ()
 
@@ -18,11 +19,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [JQCPUMonitor startMonitor];
 }
 
 - (IBAction)tableViewCatonTest:(id)sender {
     JQCatonViewController *vc = [JQCatonViewController new];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [NSThread sleepForTimeInterval:5];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,1 @@
+../../../../../../JQUIKit/JQUIKit/Classes/JQTableViewModel/JQTableViewCellModel.h

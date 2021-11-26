@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JQCPUMonitor : NSObject
 
++ (void)startMonitor;
 
 
 @end

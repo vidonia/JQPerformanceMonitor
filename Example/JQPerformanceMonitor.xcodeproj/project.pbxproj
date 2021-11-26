@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09AE31F0F08BF85D659690BA /* Pods_JQPerformanceMonitor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC94E2852427B32111C8FE7 /* Pods_JQPerformanceMonitor_Example.framework */; };
-		5264AEABC9CB698DD3D07ED2 /* Pods_JQPerformanceMonitor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396727F4D0F9278C17A770F9 /* Pods_JQPerformanceMonitor_Tests.framework */; };
+		241874AF49032E24D6EA277F /* libPods-JQPerformanceMonitor_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3EA7B0D5A96A1B196DC4E6 /* libPods-JQPerformanceMonitor_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,6 +26,8 @@
 		CA6A1B3E274F2C0A008E671A /* JQCatonMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A1B3B274F2C09008E671A /* JQCatonMonitor.m */; };
 		CA6A1B3F274F2C0A008E671A /* JQCatonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A1B3D274F2C0A008E671A /* JQCatonViewController.m */; };
 		CA6A1B42274F2C36008E671A /* JQLargeImgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A1B41274F2C36008E671A /* JQLargeImgTableViewCell.m */; };
+		CA6A1B4827506CE1008E671A /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA6A1B4727506CE1008E671A /* test.jpeg */; };
+		F7C701BB5762AF9AAB830F25 /* libPods-JQPerformanceMonitor_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAE64A1EBF60B5CFB867334 /* libPods-JQPerformanceMonitor_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,8 @@
 
 /* Begin PBXFileReference section */
 		076821AC1E1D6FA747C93FEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D3EA7B0D5A96A1B196DC4E6 /* libPods-JQPerformanceMonitor_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQPerformanceMonitor_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		120AE6BBE97D713917F1A2DF /* JQPerformanceMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JQPerformanceMonitor.podspec; path = ../JQPerformanceMonitor.podspec; sourceTree = "<group>"; };
-		396727F4D0F9278C17A770F9 /* Pods_JQPerformanceMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQPerformanceMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48498FDF6DAFC5609D13F1EB /* Pods-JQPerformanceMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPerformanceMonitor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JQPerformanceMonitor_Tests/Pods-JQPerformanceMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JQPerformanceMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQPerformanceMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,8 +75,9 @@
 		CA6A1B3D274F2C0A008E671A /* JQCatonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQCatonViewController.m; sourceTree = "<group>"; };
 		CA6A1B40274F2C36008E671A /* JQLargeImgTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQLargeImgTableViewCell.h; sourceTree = "<group>"; };
 		CA6A1B41274F2C36008E671A /* JQLargeImgTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQLargeImgTableViewCell.m; sourceTree = "<group>"; };
+		CA6A1B4727506CE1008E671A /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
 		D68E93F698F8DBB4108E944A /* Pods-JQPerformanceMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPerformanceMonitor_Example.debug.xcconfig"; path = "Target Support Files/Pods-JQPerformanceMonitor_Example/Pods-JQPerformanceMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FDC94E2852427B32111C8FE7 /* Pods_JQPerformanceMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQPerformanceMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAE64A1EBF60B5CFB867334 /* libPods-JQPerformanceMonitor_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQPerformanceMonitor_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				09AE31F0F08BF85D659690BA /* Pods_JQPerformanceMonitor_Example.framework in Frameworks */,
+				241874AF49032E24D6EA277F /* libPods-JQPerformanceMonitor_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +99,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5264AEABC9CB698DD3D07ED2 /* Pods_JQPerformanceMonitor_Tests.framework in Frameworks */,
+				F7C701BB5762AF9AAB830F25 /* libPods-JQPerformanceMonitor_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FDC94E2852427B32111C8FE7 /* Pods_JQPerformanceMonitor_Example.framework */,
-				396727F4D0F9278C17A770F9 /* Pods_JQPerformanceMonitor_Tests.framework */,
+				0D3EA7B0D5A96A1B196DC4E6 /* libPods-JQPerformanceMonitor_Example.a */,
+				EBAE64A1EBF60B5CFB867334 /* libPods-JQPerformanceMonitor_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,6 +211,7 @@
 		CA6A1B39274F2BEE008E671A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CA6A1B4727506CE1008E671A /* test.jpeg */,
 				CA6A1B40274F2C36008E671A /* JQLargeImgTableViewCell.h */,
 				CA6A1B41274F2C36008E671A /* JQLargeImgTableViewCell.m */,
 				CA6A1B3C274F2C09008E671A /* JQCatonMonitor.h */,
@@ -230,7 +233,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D3D18955B36D1C3254E7F130 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6A1B4827506CE1008E671A /* test.jpeg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -338,30 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3D18955B36D1C3254E7F130 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JQPerformanceMonitor_Example/Pods-JQPerformanceMonitor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JQFoundation/JQFoundation.framework",
-				"${BUILT_PRODUCTS_DIR}/JQPerformanceMonitor/JQPerformanceMonitor.framework",
-				"${BUILT_PRODUCTS_DIR}/JQUIKit/JQUIKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQFoundation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQPerformanceMonitor.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQUIKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JQPerformanceMonitor_Example/Pods-JQPerformanceMonitor_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB07B8DC453F37EB90A0BB19 /* [CP] Check Pods Manifest.lock */ = {

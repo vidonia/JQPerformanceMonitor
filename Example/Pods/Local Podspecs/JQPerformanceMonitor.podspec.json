@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "9.0"
   },
+  "dependencies": {
+    "PLCrashReporter": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "CPUMonitor",

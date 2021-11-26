@@ -55,9 +55,9 @@
             JQLargeImgTableViewCell *cell = [JQLargeImgTableViewCell largeImgCell:tableview];
             cell.titleLabel.text = [NSString stringWithFormat:@"第 %ld 行", indexPath.row + 1];
             cell.index = indexPath.row;
-            [cell.largeImgView1 sd_setImageWithURL:[NSURL URLWithString:a]];
-            [cell.largeImgView2 sd_setImageWithURL:[NSURL URLWithString:b]];
-            [cell.largeImgView3 sd_setImageWithURL:[NSURL URLWithString:c]];
+//            [cell.largeImgView1 sd_setImageWithURL:[NSURL URLWithString:a]];
+//            [cell.largeImgView2 sd_setImageWithURL:[NSURL URLWithString:b]];
+//            [cell.largeImgView3 sd_setImageWithURL:[NSURL URLWithString:c]];
 //            cell.largeImgView1.image = [UIImage imageWithContentsOfFile:path];
 //            cell.largeImgView2.image = [UIImage imageWithContentsOfFile:path];
 //            cell.largeImgView3.image = [UIImage imageWithContentsOfFile:path];
@@ -75,6 +75,15 @@
             NSLog(@"调试：大量计算结束");
         };
     }
+    
+//    [NSTimer scheduledTimerWithTimeInterval:0.001 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        NSLog(@"Timer：大量计算");
+//        int a = 8;
+//        for (long i = 0; i < 999999999; i++) {
+//            a = a + 1;
+//        }
+//        NSLog(@"Timer：大量计算结束");
+//    }];
 }
 
 
